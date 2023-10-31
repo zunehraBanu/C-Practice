@@ -20,7 +20,7 @@ The maximum limit of unsigned short data type : 65535*/
 
 #include <iostream>
 #include <climits> //we need to include climits library to get min and max values
-#include <limits>  //we need ro include this library for another program
+#include <limits>  //we need to include this library for another program
 using namespace std;
 int main()
 {

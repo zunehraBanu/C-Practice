@@ -91,5 +91,6 @@ int main()
     cout << "The minimum limit of short data type : " << numeric_limits<short>::min() << endl;
     cout << "The maximum limit of short data type : " << numeric_limits<short>::max() << endl;
     cout << "The maximum limit of unsigned short data type : " << numeric_limits<unsigned short>::max() << endl;
+    
     return 0;
 }

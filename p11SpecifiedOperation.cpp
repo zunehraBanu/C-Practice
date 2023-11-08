@@ -17,5 +17,26 @@ int main()
     cout << " Result of 2nd expression is : "<< ((35+5)%7) <<"\n" ; //40 % 7 = 5 (remainder of 40/7)
     cout << " Result of 3rd expression is : "<< (14+-4*6/11) <<"\n" ;  //14 - (24/11)= 14 - 2 = 12
     cout << " Result of 4th expression is : "<< (2+15/6*1-7%2) <<"\n\n";  //2 + (15/6) - remainder of (7/2) = 2 + 2 - 1 = 4 - 1 = 3	
+    //Another way of doing this code
+    cout<<"--------------------------------------------------\n";
+     cout << "\nPrint the result of some specific operation :\n";
+    cout << "--------------------------------------------------\n";
+
+    // Expression 1: -1 + 4 * 6
+    int result1 = -1 + 4 * 6;
+    cout << "Result of 1st expression is: " << result1 << endl;
+
+    // Expression 2: (35 + 5) % 7
+    int result2 = (35 + 5) % 7;
+    cout << "Result of 2nd expression is: " << result2 << endl;
+
+    // Expression 3: 14 + (-4 * 6) / 11
+    int result3 = 14 + (-4 * 6) / 11;
+    cout << "Result of 3rd expression is: " << result3 << endl;
+
+    // Expression 4: 2 + 15 / 6 * 1 - 7 % 2
+    int result4 = 2 + 15 / 6 * 1 - 7 % 2;
+    cout << "Result of 4th expression is: " << result4 << endl;
+
     return 0;
 }

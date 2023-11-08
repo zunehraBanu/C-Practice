@@ -8,9 +8,15 @@ same as 2nd program */
 using namespace std;
 int main()
 {
+    // Output a title for the program
+    cout<<"Print the sum of two numbers :"<<endl;
+    cout<<"-----------------------------------"<<endl;
+    // Declare and initialize two integer variables
     int num1 = 29;
     int num2 = 30;
     int sum = num1 + num2;
+    // Display the result, including the numbers and their sum
     cout << "The sum of " << num1 << " and " << num2 << " is : " << sum;
-    return 0;
+    // Return 0 to indicate successful program execution
+    return 0; 
 }

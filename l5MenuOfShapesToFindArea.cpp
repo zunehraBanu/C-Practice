@@ -54,14 +54,17 @@ using namespace std;
 
 int main()
 {
+     // Loop to allow the user to choose shapes multiple times
     while (true)
     {
+        // Displaying menu options
         cout << "Choose the shape to find area of:" << endl;
         cout << "1. Circle" << endl;
         cout << "2. Rectangle" << endl;
         cout << "3. Right Triangle" << endl;
         cout << "4. Exit" << endl;
 
+    // User input for shape selection
         int choice;
         cout << "Selection: ";
         cin >> choice;
@@ -70,6 +73,7 @@ int main()
         {
         case 1:
         {
+             // Circle area calculation
             double radius;
             cout << "Enter the radius: ";
             cin >> radius;
@@ -79,6 +83,7 @@ int main()
         }
         case 2:
         {
+            // Rectangle area calculation
             double length, width;
             cout << "Enter the length: ";
             cin >> length;
@@ -90,6 +95,7 @@ int main()
         }
         case 3:
         {
+             // Right Triangle area calculation
             double base, height;
             cout << "Enter the base: ";
             cin >> base;
@@ -101,9 +107,11 @@ int main()
         }
         case 4:
         {
+            // Exit the program
             cout << endl;
             return 0;
         default:
+          // Handling invalid input
             cout << "Invalid! Try Again!!!" << endl;
             break;
         }

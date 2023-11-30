@@ -22,27 +22,35 @@ int main()
 {
     int number;
     int count = 0;
+        // Get user input
     cout << "Enter a number: ";
     cin >> number;
     cout << endl;
+     // Generate and print the hailstone sequence
     while (number != 1)
     {
+        // Print the current number, separated by a tab
         cout << number << "\t";
+        // Increment the count and start a new line if count reaches 10
         count++;
         if (count == 10)
         {
             cout << endl;
             count = 0;
         }
+        // Update the number according to hailstone sequence rules
         if (number % 2 == 0)
         {
+             // If the number is even, divide it by 2
             number = number / 2;
         }
         else
         {
+            // If the number is odd, multiply it by 3 and add 1
             number = number * 3 + 1;
         }
     }
+     // Print the final "1" at the end of the sequence
     cout << "1" << endl;
     return 0;
 }

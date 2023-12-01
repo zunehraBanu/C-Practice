@@ -11,15 +11,22 @@ The alphabetic characters are: Helloworld*/
 using namespace std;
 int main()
 {
+    // Declare two strings, one for input and one for output
     string input, output;
+    // Prompt the user to enter input
     cout << "Enter input: ";
+    // Use getline to read the input line
     getline(cin, input);
+    // Iterate through each character in the input string
     for (unsigned int i = 0; i < input.length(); i++)
     {
+        // Check if the current character is an alphabetical character
         if (isalpha(input.at(i)))
         {
+            // If it is, concatenate it to the output string
             output = output + input.at(i);
         }
     }
+    // Display the result, showing only the alphabetic characters
     cout << "The alphabetic characters are: " << output << endl;
 }
